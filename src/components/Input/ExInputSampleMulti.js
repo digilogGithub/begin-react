@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-function InputSampleMulti() {
+function ExInputSampleMulti() {
     const [inputs, setInputs] = useState({
         name:'',
         nickName:''
@@ -10,7 +10,6 @@ function InputSampleMulti() {
 
     const onChange = (e) => {
         const { id, value } = e.target;
-        console.log(inputs);
         setInputs({
             ...inputs,
             [id] : value,
@@ -38,4 +37,4 @@ function InputSampleMulti() {
     );
 }
 
-export default React.memo(InputSampleMulti);
+export default React.memo(ExInputSampleMulti);

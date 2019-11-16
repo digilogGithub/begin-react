@@ -4,6 +4,6 @@ const style = {
     border: '2px solid black',
     padding: '16px',
 };
-const Wrapper = ({ children }) => <div style={style}>{ children }</div>
+const ExWrapper = ({ children }) => <div style={style}>{ children }</div>
 
-export default Wrapper;
+export default ExWrapper;

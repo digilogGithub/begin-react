@@ -11,11 +11,8 @@ const reducer = (state, action) => {
     }
 }
 
-const initialState = {
 
-}
-
-function Counter() {
+function ExCounter() {
 
     const [number, dispatch] = useReducer(reducer,0);
 
@@ -35,4 +32,4 @@ function Counter() {
     )
 }
 
-export default React.memo(Counter);
+export default React.memo(ExCounter);

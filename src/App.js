@@ -1,110 +1,70 @@
-import React, {useState, useRef, useMemo, useCallback} from 'react';
+import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-
-import userList from './data/sampleData';
-
-import Hello from './components/wrapper/Hello'
-import Wrapper from './components/wrapper/Wrapper'
-import Counter from './components/counter/Counter'
-import InputSample from './components/Input/InputSample'
-import InputSampleMulti from './components/Input/InputSampleMulti'
-import UserList from './components/table/UserList'
-import CreateUser from './components/table/CreateUser'
-// import UserListTable from './components/myTable/UserListTable'
-
-
+import ExWrapper from "./components/wrapper/ExWrapper";
+import ExHello from "./components/wrapper/ExHello";
+import ExCounter from "./components/counter/ExCounter";
+import ExInputSample from "./components/Input/ExInputSample";
+import ExInputSampleMulti from "./components/Input/ExInputSampleMulti";
+import ExUserTableApp from "./components/exTable/ExUserTableApp";
+import ExCounterContainer from "./components/redux/exCounter/ExCounterContainer";
+import ExTodoContainer from "./components/redux/exTodo/ExTodoContainer";
+import ExTodoApp from "./components/exTodoList/ExTodoApp";
 
 
 function App() {
-    const name = 'SIA'
-    const style = {
+    const exName = 'SIA';
+    const name = 'i love you daddy because of your the best'
+    const exStyle = {
         backgroundColor: 'black',
         color: 'aqua',
         fontSize: 24, // 기본 단위 px
         padding: '1rem' // 다른 단위 사용 시 문자열로 설정
     }
 
-    const nextId = useRef(4);
-    const [users, setUsers] = useState(userList);
-    const [user, setUser] = useState({
-        userName: '',
-        email: ''
-    });
-
-    const {userName, email} = user;
-
-
-    const onChange = (e) => {
-        const {name, value} = e.target;
-        setUser({
-            ...user,
-            [name]: value
-        });
-    };
-
-    const onCreate = () => {
-        const user = {
-            id:nextId.current,
-            userName: userName,
-            email: email,
-            active: false
-        };
-        setUsers(
-            [...users, user]
-        );
-
-        setUser({
-            userName: '',
-            email: ''
-        });
-        nextId.current++;
-    };
-
-    const onRemove = (id) => {
-        setUsers(
-            users.filter(user => user.id !== id)
-        )
-    };
-
-    const onToggle = (id) => {
-        setUsers(
-            users.map(user => user.id === id ? {...user,  active : !user.active } : user)
-        );
+    const style = {
+        background: 'black',
+        color: 'aqua',
+        fontSize: 24,
+        padding: '1rem',
     }
-
-    const countActiveUsers = useMemo(() => {
-        console.log('active');
-        return users.filter(user => user.active).length}
-    ,[users]);
-
-    // const countActiveUsers = () => {
-    //         console.log('active');
-    //         return users.filter(user => user.active).length} ;
     return (
         <div className="App">
             <div className="part-a">
-                <Wrapper>
-                    <Hello name="sia" color="red" isSpecial/>
-                    <Hello color="pink"/>
-                    <div style={style}>{name}</div>
+                <ExWrapper>
+                    <ExHello name="sia" color="red" isSpecial/>
+                    <ExHello color="pink"/>
+                    <div style={exStyle}>{exName}</div>
                     <div className="gray-box"></div>
-                </Wrapper>
-                <Counter/>
+                </ExWrapper>
+                <ExCounter/>
                 <hr/>
-                <InputSample/>
+                <ExInputSample/>
                 <hr/>
-                <InputSampleMulti/>
+                <ExInputSampleMulti/>
                 <hr/>
                 <br/>
-                <CreateUser userName={userName} email={email} onChange={onChange} onCreate={onCreate} />
-                <UserList users={users} onRemove={onRemove} onToggle={onToggle}/>
-                <br/>
-                <b>Total Active User Count : {countActiveUsers}</b>
+                <ExUserTableApp/>
             </div>
             <div className="part-b">
-              
+            {/*    <MyWrapper>*/}
+            {/*        <MyHello exName="IN SOO" color="red" isSpecial/>*/}
+            {/*        <MyHello color="pink"/>*/}
+            {/*        <div style={myStyle}>{name}</div>*/}
+            {/*        <div className='gray-box'/>*/}
+            {/*    </MyWrapper>*/}
+            {/*    <MyCounter/>*/}
+            {/*    <hr/>*/}
+            {/*    <MyInputSample/>*/}
+            {/*    <hr/>*/}
+            {/*    <MyInputSampleMulti/>*/}
+            {/*    <hr/>*/}
+            {/*    <MyUserTableApp/>*/}
             </div>
+            {/*<ExCounterContainer/>*/}
+            {/*<hr/>*/}
+            {/*<ExTodoContainer/>*/}
+            {/*<ExTodoApp/>*/}
         </div>
     );
 }

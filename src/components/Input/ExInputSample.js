@@ -10,7 +10,7 @@ const reducer = (state, action) => {
             return state;
     }
 }
-function InputSample() {
+function ExInputSample() {
     const [text, dispatch] = useReducer(reducer,'');
 
     const onChange = (e) => {
@@ -36,4 +36,4 @@ function InputSample() {
     );
 }
 
-export default InputSample;
+export default ExInputSample;
