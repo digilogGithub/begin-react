@@ -47,19 +47,7 @@ function App() {
                 <ExUserTableApp/>
             </div>
             <div className="part-b">
-            {/*    <MyWrapper>*/}
-            {/*        <MyHello exName="IN SOO" color="red" isSpecial/>*/}
-            {/*        <MyHello color="pink"/>*/}
-            {/*        <div style={myStyle}>{name}</div>*/}
-            {/*        <div className='gray-box'/>*/}
-            {/*    </MyWrapper>*/}
-            {/*    <MyCounter/>*/}
-            {/*    <hr/>*/}
-            {/*    <MyInputSample/>*/}
-            {/*    <hr/>*/}
-            {/*    <MyInputSampleMulti/>*/}
-            {/*    <hr/>*/}
-            {/*    <MyUserTableApp/>*/}
+
             </div>
             {/*<ExCounterContainer/>*/}
             {/*<hr/>*/}

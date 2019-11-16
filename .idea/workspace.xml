@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c9e138-ea27-4634-8e95-61b92ac8037a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/exTable/ExUserTableApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/exTable/parts/ExUserCreate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/exTable/parts/ExUserTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/exTodoList/ExTodoApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/exTodoList/parts/ExTodoCreate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/exTodoList/parts/ExTodoHead.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/exTodoList/parts/ExTodoItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/exTodoList/parts/ExTodoList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/exTodoList/parts/ExTodoTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/redux/exCounter/ExCounter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/redux/exCounter/ExCounterContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/redux/exTodo/ExTodo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/redux/exTodo/ExTodoContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wrapper/ExHello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contextAPI/exTodoContext/ExTodoContextProvider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/todoList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/exCounter/exCounterRedux.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/exIndex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/exTodo/exTodoRedux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Input/InputSample.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/ExInputSample.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Input/InputSampleMulti.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/ExInputSampleMulti.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/counter/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/counter/ExCounter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/table/CreateUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/table/UserList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/wrapper/Hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wrapper/Hello.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/wrapper/Wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wrapper/ExWrapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/sampleData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/userList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +136,7 @@
       <workItem from="1573657176176" duration="847000" />
       <workItem from="1573725509296" duration="6847000" />
       <workItem from="1573813123345" duration="7600000" />
-      <workItem from="1573870505981" duration="3153000" />
+      <workItem from="1573870505981" duration="3211000" />
     </task>
     <task id="LOCAL-00001" summary="begin-react">
       <created>1573287743070</created>
@@ -179,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573287743070</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="begin-react-first">
+      <created>1573875143254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573875143254</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +173,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="begin-react" />
-    <option name="LAST_COMMIT_MESSAGE" value="begin-react" />
+    <MESSAGE value="begin-react-first" />
+    <option name="LAST_COMMIT_MESSAGE" value="begin-react-first" />
   </component>
 </project>
